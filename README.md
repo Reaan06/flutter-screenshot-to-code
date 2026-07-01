@@ -41,18 +41,24 @@ Complete, runnable Flutter/Dart code with:
 
 ## Installation
 
-### For OpenCode
+### Quick Install (all agents)
 ```bash
-npx skills add Reaan06/flutter-screenshot-to-code -g -y
+npx skills add Reaan06/flutter-screenshot-to-code
+cd ~/.agents/skills/flutter-screenshot-to-code
+./install.sh
 ```
 
-### For Claude Code
-```bash
-npx skills add Reaan06/flutter-screenshot-to-code -g -y
-```
+This detects all installed AI agents (Claude Code, OpenCode, Codex, Gemini CLI) and creates symlinks automatically. One command, zero configuration.
 
-### For any AI agent
-Copy `SKILL.md` into your agent's skills directory.
+### Manual Install
+```bash
+npx skills add Reaan06/flutter-screenshot-to-code
+```
+Then symlink to your agent's directory:
+- **Claude Code**: `ln -s ~/.agents/skills/flutter-screenshot-to-code ~/.claude/skills/`
+- **OpenCode**: `ln -s ~/.agents/skills/flutter-screenshot-to-code ~/.config/opencode/skills/`
+- **Codex**: `ln -s ~/.agents/skills/flutter-screenshot-to-code ~/.codex/skills/`
+- **Gemini CLI**: `ln -s ~/.agents/skills/flutter-screenshot-to-code ~/.gemini/skills/`
 
 ## Usage
 
