@@ -24,6 +24,19 @@ Complete, runnable Flutter/Dart code with:
 - Accessibility annotations
 - Widget tests
 
+## Installation
+
+```bash
+npx skills add Reaan06/flutter-screenshot-to-code --all
+```
+
+That's it. One command. Automatically installs to all your AI agents (Claude Code, OpenCode, Codex, Gemini CLI, and more).
+
+### Update
+```bash
+npx skills update flutter-screenshot-to-code
+```
+
 ## Features
 
 - **Deep Visual Analysis** — Identifies layout, colors, spacing, typography, and every UI component
@@ -38,19 +51,6 @@ Complete, runnable Flutter/Dart code with:
 - **Accessibility** — Semantics, tooltips, contrast, hit targets
 - **Testing** — Widget test patterns and golden test setup
 - **Performance** — const constructors, ListView.builder, image optimization
-
-## Installation
-
-```bash
-npx skills add Reaan06/flutter-screenshot-to-code --all
-```
-
-That's it. One command. Automatically installs to all your AI agents (Claude Code, OpenCode, Codex, Gemini CLI, and more).
-
-### Update
-```bash
-npx skills update flutter-screenshot-to-code
-```
 
 ## Usage
 
